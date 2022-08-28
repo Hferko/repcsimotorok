@@ -1,0 +1,241 @@
+@font-face {
+  font-family: Oxanium;
+  src: url(Oxanium-Regular.ttf);
+}
+
+body, ul, li, p, a, label, input, div {
+  font-family: 'Oxanium', cursive;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+
+body{
+background: linear-gradient(to right, peru 0%, beige 100%);
+}
+
+a{
+  text-decoration: none;
+}
+
+.h2 {
+  font-family: 'Oxanium', cursive;
+  font-size: 45px !important;
+  font-weight: 200 !important;
+  color: teal;
+}
+.h3 {
+  font-family: 'Oxanium', cursive;
+  font-size: 30px !important;
+  font-weight: 300;
+  color: navy;
+}
+.h4 {
+  font-family: 'Oxanium', cursive;
+  font-size: 22px !important;
+  font-weight: 300;
+  color: navy;
+}
+
+.logo img{ height: 60px; width: auto !important;}
+.text-warning {  color: #FFD700 !important;}
+.text-muted { color: #acacac !important;}
+.text-success { color: #59ab6e !important;}
+.text-light { color: whitesmoke !important;}
+.bg-dark {background: linear-gradient(to bottom, navy 0%, blue 100%)!important;}
+.bg-light { background: linear-gradient(to right, #66ffff 0%, beige 100%) !important;}
+.bg-black { background-color: #1d242d !important;}
+.bg-success { background-color: #59ab6e !important;}
+.btn-success {
+  background-color: teal !important;
+  border-color: teal !important;
+}
+.fix{
+  position: absolute;
+  bottom: 0px; 
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.offer, .card{
+  background: linear-gradient(to bottom, #66ffff 0%, beige 100%);
+  border-radius: 10px;
+}
+
+.pagination .page-link:hover {color: #000;}
+.pagination .page-link:hover, .pagination .page-link.active {
+  background-color: #69bb7e;
+  color: #fff;
+}
+/* Nav */
+#templatemo_nav_top { min-height: 40px;}
+#templatemo_nav_top * { font-size: .9em !important; font-weight: bold; text-transform: uppercase;}
+#templatemo_main_nav a { color: #330000; text-transform: uppercase; font-weight: bold;}
+#templatemo_main_nav a:hover { color: blue;}
+#templatemo_main_nav .navbar .nav-icon { margin-right: 10px;}
+
+/* Carousel */
+#template-mo-zay-hero-carousel { background: #efefef !important;}
+/* Accordion */
+.templatemo-accordion a { color: #000;}
+.templatemo-accordion a:hover { color: #333d4a;}
+/* Shop */
+.shop-top-menu a:hover { color: #69bb7e !important;}
+/* Product */
+.product-wap { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);}
+.product-wap .product-color-dot.color-dot-red { background:#f71515;}
+.product-wap .product-color-dot.color-dot-blue { background:#6db4fe;}
+.product-wap .product-color-dot.color-dot-black { background:#000000;}
+.product-wap .product-color-dot.color-dot-light { background:#e0e0e0;}
+.product-wap .product-color-dot.color-dot-green { background:#0bff7e;}
+.card.product-wap .card .product-overlay {
+  background: rgba(0,0,0,.2);
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+}
+.card.product-wap:hover .card .product-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.card.product-wap a { color: #000;}
+#carousel-related-product .slick-slide:focus { outline: none !important;}
+#carousel-related-product .slick-dots li button:before {
+  font-size: 15px;
+  margin-top: 20px;
+}
+.kezdo{
+  overflow: hidden;  
+}
+
+.kezdo img{
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(70%);
+  
+}
+.kezdo img:hover{
+  filter: brightness(110%);
+  transform: scale(1.1);  
+  border-radius: 5px;
+}
+
+/* Brand */
+.brand-img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: .5s;
+}
+.brand-img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+/* Carousel Hero */
+#template-mo-zay-hero-carousel .carousel-indicators li {
+  margin-top: -50px;
+  background-color: #59ab6e;
+}
+#template-mo-zay-hero-carousel .carousel-control-next i,
+#template-mo-zay-hero-carousel .carousel-control-prev i {
+  color: #59ab6e !important;
+  font-size: 2.8em !important;
+}
+
+/* Carousel Brand */
+.tempaltemo-carousel .h1 {
+  font-size: .5em !important;
+  color: #000 !important;
+}
+/* Services */
+.services-icon-wap {transition: .3s;}
+.services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
+.services-icon-wap:hover {background: #69bb7e;}
+/* Contact map */
+.leaflet-control a, .leaflet-control { font-size: 10px !important;}
+.form-control { border: 1px solid #e8e8e8;}
+/* Footer */
+#tempaltemo_footer {color: red;}
+#tempaltemo_footer a { color: #dcdde1;}
+#tempaltemo_footer a:hover { color: lime;}
+#tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}
+#tempaltemo_footer ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;
+}
+#tempaltemo_footer ul.footer-icons li:hover {
+  background-color: #cfd6e1;
+  transition: .5s;
+}
+#tempaltemo_footer ul.footer-icons li:hover i {
+  color: #212934;
+  transition: .5s;
+}
+#tempaltemo_footer .border-light { border-color:  #0000e6 !important;}
+
+/*-  MODAL -*/
+.modal-dialog{
+  overflow-y: initial !important
+}
+.modal-body{
+  height: 78vh;
+  overflow-y: auto;
+}
+
+input[type=text], .form-control, select{
+  border:           thin solid peru;
+  border-radius:    4px;
+  resize:           vertical;
+  background-color: beige;
+  font-family: 'Oxanium', cursive;
+}
+
+input:required, select:required{
+  border:           2px solid red;
+}
+
+::placeholder{color: #AAA !important;}
+
+.betu{font-family: 'Oxanium', cursive;}
+
+/* video */
+video{
+  width: 80%;
+  height: auto;
+  margin: 0 10%;
+  border-radius: 10px;
+}
+
+/* Mobil telefonra*/
+.product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
+  font-size: 12px !important;
+}
+.product-wap .product-color-dot {
+  width: 6px;
+  height: 6px;
+}
+hr{
+  width: 70%;
+  color: #888;
+  margin-left: 15%;
+}
+@media (min-width: 576px) {
+  .tempaltemo-carousel .h1 { font-size: 1em !important;}
+}
+
+/*// Közepes eszközökön (tablet, 768pxfelettiek)*/
+@media (min-width: 768px) {
+  #templatemo_main_nav .navbar-nav {max-width: 450px;}
+ }
+
+/* Nagy képernyő*/
+@media (min-width: 992px) {
+  #templatemo_main_nav .navbar-nav {max-width: 550px;}
+  #template-mo-zay-hero-carousel .carousel-item {min-height: 30rem !important;}
+  .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}
+  .product-wap .product-color-dot {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+@media (min-width: 1200px) {}
