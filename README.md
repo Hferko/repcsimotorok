@@ -1,2 +1,2 @@
 # repcsimotorok
-It is my my exam assignment for PHP to the PHP course
+It is my exam assignment for PHP course
